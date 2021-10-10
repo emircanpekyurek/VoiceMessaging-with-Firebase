@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/default_page_padding">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/default_page_padding"
+        android:text="@string/choose_effect"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvNoEffect"
+        style="@style/BottomSheetRowTextViewStyle"
+        android:text="@string/no_voice_effect" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvRadioEffect"
+        style="@style/BottomSheetRowTextViewStyle"
+        android:text="@string/voice_effect_radio" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSquirrelEffect"
+        style="@style/BottomSheetRowTextViewStyle"
+        android:text="@string/voice_effect_squirrel" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvRobotEffect"
+        style="@style/BottomSheetRowTextViewStyle"
+        android:text="@string/voice_effect_robot" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCaveEffect"
+        style="@style/BottomSheetRowTextViewStyle"
+        android:text="@string/voice_effect_cave" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCancel"
+        style="@style/BottomSheetRowTextViewStyle"
+        android:text="@string/label_cancel" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

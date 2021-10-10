@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Voice Messaging</string>
+
+    <string name="label_you">You</string>
+    <string name="label_record">Record</string>
+    <string name="label_recording">Recording</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_send">Send</string>
+    <string name="label_error">Error</string>
+
+    <string name="label_register">Register</string>
+    <string name="label_create_nickname">Create Nickname</string>
+    <string name="label_sign_out">Sign Out</string>
+
+    <string name="title_all_users">All Users</string>
+    <string name="title_chat_users">Chat Users</string>
+    <string name="title_filtered_users">Filtered Users</string>
+
+    <string name="choose_effect">Choose Effect</string>
+    <string name="no_voice_effect">No Effect</string>
+    <string name="voice_effect_radio">Radio Effect</string>
+    <string name="voice_effect_squirrel">Squirrel</string>
+    <string name="voice_effect_robot">Robot</string>
+    <string name="voice_effect_cave">Cave</string>
+
+    <string name="show_all_users">Show All Users</string>
+    <string name="search_all_users">Search All Users</string>
+
+    <string name="chat_list_is_empty">Chat List Is Empty</string>
+    <string name="user_not_found">User Not Found</string>
+
+    <string name="new_message_added">New Message Added</string>
+
+    <string name="notification_title_new_message">New Message!</string>
+    <string name="notification_description_new_message">%1$s sent a new message.</string>
+
+    <string name="record_permission_warning">You have to give voice recording permission</string>
+
+    <string name="error_empty_text">Fill in the blank</string>
+    <string name="error_try_different_nickname">Try different nickname</string>
+</resources>
